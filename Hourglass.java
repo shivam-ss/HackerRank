@@ -91,7 +91,7 @@ public class Solution {
     // Complete the hourglassSum function below.
     static int hourglassSum(int[][] arr) {
       int sum=0;
-      int max=0;
+      int max=-1000; //test case 5 and 7 wont pass, they have negative value which is always lesser than max
        int i,j;
       for(i=0;i<4;i++){
           for(j=0;j<4;j++){
